@@ -5,7 +5,15 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    background-color: #f6f8f9;
+}
+
 /* HEADER */
+
+#main-header {
+    background-color: #ffffff;
+}
 
 #main-logo {
     padding: 10px 5px 5px 20px;
@@ -22,7 +30,7 @@ h1 {
 
 /* MAIN */
 
-.container {
+.main {
     background-color: #f6f8f9;
 }
 
@@ -32,7 +40,7 @@ h1 {
     width: 1000px;
     height: 70px;
     background-color: #ffffff;
-    margin: 20px auto 5px;
+    margin: 50px auto 5px;
     border-radius: 10px 10px 0 0;
 }
 
@@ -62,7 +70,9 @@ h1 {
 .container-section {
     width: 1000px;
     background-color: #ffffff;
-    margin: 3px auto;
+    margin: 3px auto 50px auto;
+    padding-bottom: 40px;
+    border-radius: 0 0 10px 10px;
 }
 
 ul {
