@@ -22,8 +22,9 @@ h1 {
 
 /* MAIN */
 
-main {
+.container {
     background-color: #f6f8f9;
+    height: 1000px;
 }
 
 /* MAIN (HEADER) */
@@ -32,6 +33,8 @@ main {
     width: 1000px;
     height: 70px;
     background-color: #ffffff;
+    margin: 20px auto 5px;
+    border-radius: 10px 10px 0 0;
 }
 
 #but {
@@ -53,4 +56,44 @@ main {
     color: #d0d5d9;
     border: 2px solid #d0d5d9;
     border-radius: 5px;
+}
+
+/* MAIN (SECTION) */
+
+.container-section {
+    width: 1000px;
+    background-color: #ffffff;
+    margin: 3px auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 3% 0 5% 5%;
+}
+
+.section-title {
+    font-weight: bold;
+}
+
+.content-section {
+    margin-top: 1.5%;
+}
+
+.spunta {
+    display: inline-block;
+    color: #71c7b2;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    border: 2px solid #71c7b2;
+    text-align: center;
+    line-height: 100%;
+}
+
+.type-content {
+    font-size: x-small;
+    color: #ffffff;
+    border-radius: 14px;
+    padding: 7px 15px;
+    background-color: #45abe9;
 }
