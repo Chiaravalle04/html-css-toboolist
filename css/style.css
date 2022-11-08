@@ -19,3 +19,38 @@ h1 {
     font-weight: bold;
     font-family: sans-serif;
 }
+
+/* MAIN */
+
+main {
+    background-color: #f6f8f9;
+}
+
+/* MAIN (HEADER) */
+
+.container-header {
+    width: 1000px;
+    height: 70px;
+    background-color: #ffffff;
+}
+
+#but {
+    width: 85px;
+    height: 30px;
+    background-color: #47adf1;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    margin: 3% 0 0 5%;
+}
+
+#but2 {
+    width: 100px;
+    height: 31px;
+    background-color: #ffffff;
+    font-weight: bold;
+    color: #d0d5d9;
+    border: 2px solid #d0d5d9;
+    border-radius: 5px;
+}
