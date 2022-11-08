@@ -24,7 +24,6 @@ h1 {
 
 .container {
     background-color: #f6f8f9;
-    height: 1000px;
 }
 
 /* MAIN (HEADER) */
@@ -68,7 +67,14 @@ h1 {
 
 ul {
     list-style-type: none;
-    padding: 3% 0 5% 5%;
+}
+
+#first-list {
+    padding: 3% 0 0 5%;
+}
+
+.list {
+    padding: 3% 0 0 5%;
 }
 
 .section-title {
@@ -77,7 +83,10 @@ ul {
 
 .content-section {
     margin-top: 1.5%;
+    padding: 0 0 1.5% 0;
 }
+
+/* SPUNTA e CROSS */
 
 .spunta {
     display: inline-block;
@@ -90,10 +99,63 @@ ul {
     line-height: 100%;
 }
 
-.type-content {
+.cross {
+    display: inline-block;
+    color: #eb5952;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    border: 2px solid #eb5952;
+    text-align: center;
+    line-height: 100%;
+}
+
+/* TIPOLOGIE */
+
+.editorial {
     font-size: x-small;
     color: #ffffff;
     border-radius: 14px;
     padding: 7px 15px;
     background-color: #45abe9;
+}
+
+#q1-goals {
+    font-size: x-small;
+    color: #ffffff;
+    border-radius: 14px;
+    padding: 7px 15px;
+    background-color: #9c72e4;
+}
+
+#recruiting {
+    font-size: x-small;
+    color: #ffffff;
+    border-radius: 14px;
+    padding: 7px 15px;
+    background-color: #64c0a8;
+}
+
+#mobile {
+    font-size: x-small;
+    color: #ffffff;
+    border-radius: 14px;
+    padding: 7px 15px;
+    background-color: #f29e33;
+}
+
+#website {
+    font-size: x-small;
+    color: #ffffff;
+    border-radius: 14px;
+    padding: 7px 15px;
+    background-color: #d864a1;
+}
+
+#sales {
+    font-size: x-small;
+    color: #ffffff;
+    border-radius: 14px;
+    padding: 7px 15px;
+    background-color: #b0c926;
 }
